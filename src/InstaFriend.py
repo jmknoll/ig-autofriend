@@ -1,9 +1,7 @@
-class InstaFriend:
+class InstaFriend(object):
 	
-	def __init__(self):
-		self.title = "bonesaw"
+	def __init__(self, name):
+		self.name = name
 
 	def say_something(self):
-		print(self.title)
-
-  say_something()
+		print(self.name)
